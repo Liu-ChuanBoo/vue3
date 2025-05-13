@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/ref.ts", "../src/effect.ts"],
+  "sourcesContent": ["class RefImpl {\n  _value\n  constructor(value) {\n    this._value = value\n  }\n}\nexport function ref(value: any): any {\n  return new RefImpl(value)\n}\n", "export function effect(fn) {\n  fn()\n}\n"],
+  "mappings": ";AAAA,IAAM,UAAN,MAAc;AAAA,EACZ;AAAA,EACA,YAAY,OAAO;AACjB,SAAK,SAAS;AAAA,EAChB;AACF;AACO,SAAS,IAAI,OAAiB;AACnC,SAAO,IAAI,QAAQ,KAAK;AAC1B;;;ACRO,SAAS,OAAO,IAAI;AACzB,KAAG;AACL;",
+  "names": []
+}
